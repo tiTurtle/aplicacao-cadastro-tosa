@@ -6,9 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="dados">
-        <label for="nome"></label>
-    </form>
+
+    <h1> Devin Tosa - A tosa ideal para seu pet</h1>
+
+    <div id="container">
+        <form action="dados">
+
+            <h2>Dados do tutor</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o nome do(a) tutor(a)"> <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" placeholder="Digite o telefone do(a) tutor(a)"><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Digite o email do(a) tutor"><br><br>
+
+            <h2>Dados pet</h2>
+            <label for="nomePet">Nome do pet:</label>
+            <input type="text" name="nomePet" id="nomePet" placeholder="Digite o nome do pet"> <br><br>
+        
+            <select name="tipo" id="tipo">
+                <option disabled selected>-- Selecione um tipo --</option>
+                <option value="gato">Gato</option>
+                <option value="cachorro">Cachorro</option>
+                <option value="coelho">Coelho</option>
+                <option value="rato">Rato</option>
+                <option value="cavalo">Cavalo</option>
+                <option value="outro">Outro</option>
+            </select>
+
+        </form>
+
+    </div>
+
+    <div id="outro"></div>
     <script src="script.js"></script>
+    <script src="tosa.js"></script>
 </body>
 </html>

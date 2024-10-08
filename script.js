@@ -1,4 +1,4 @@
-let senhaTosa = 0;
+/* let senhaTosa = 0;
 let indexPet = 0;
 
 let tutores = [
@@ -211,4 +211,4 @@ alterarStatusTosa();
 excluirPet();
 exibirTotal();
 exibirFiltro();
-exibirInconsistencias();
+exibirInconsistencias(); */
